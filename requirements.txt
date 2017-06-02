@@ -1,1 +1,2 @@
 pylint==1.7.1
+softlayer-object-storage==0.5.4

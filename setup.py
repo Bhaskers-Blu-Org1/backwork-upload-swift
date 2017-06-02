@@ -12,7 +12,7 @@ with open(path.join(HERE, 'README.md')) as f:
 
 setup(
     name="monsoon-upload-softlayer",
-    version="0.1.2",
+    version="0.1.3",
     description="Monsoon plug-in for Softlayer uploads.",
     long_description=LONG_DESCRIPTION,
     url="https://github.ibm.com/apset/monsoon",
