@@ -15,7 +15,6 @@ deploy:
   server: https://na.artifactory.swg-devops.com/artifactory/api/pypi/apset-pypi-local
   on:
     python: '2.7'
-    repo: apset/monsoon-backup-softlayer
     tags: true
 notifications:
   slack:
