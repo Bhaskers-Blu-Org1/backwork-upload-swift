@@ -50,6 +50,7 @@ class ObjectStorageUpload(object):
             container.create()
 
         with open(self.args.local_path) as needle:
+            container[self.args.remote_path].create()
             container[self.args.remote_path].send(needle)
 
         LOG.info("upload complete")
