@@ -33,7 +33,7 @@ setup(
     ],
     packages=find_packages(),
     install_requires=[
-        "monsoon-cli>=0.1.4",
+        "monsoon-cli>=0.1.7",
         "softlayer-object-storage==0.5.4"
     ],
     entry_points={
