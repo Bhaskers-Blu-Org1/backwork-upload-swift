@@ -4,6 +4,7 @@ import object_storage
 
 LOG = logging.getLogger(__name__)
 
+
 class ObjectStorageUpload(object):
     """Upload a file to Softlayer ObjectStorage."""
     command = "softlayer"
@@ -14,7 +15,8 @@ class ObjectStorageUpload(object):
         self.client = object_storage.get_client(
             self.args.username,
             self.args.api_key,
-            datacenter=self.args.datacenter)
+            datacenter=self.args.datacenter,
+            network=self.args.network)
 
     @classmethod
     def parse_args(cls, subparsers):
@@ -29,6 +31,8 @@ class ObjectStorageUpload(object):
                                   help="datacenter where the file will be stored")
         sl_oo_parser.add_argument("-c", "--container",
                                   help="target container")
+        sl_oo_parser.add_argument("-n", "--network", default="private",
+                                  help="'public' or 'private' Softlayer network")
 
         sl_oo_parser.add_argument("local_path", nargs="?", default=None,
                                   help="path in the local file system of the file to be uploaded")
