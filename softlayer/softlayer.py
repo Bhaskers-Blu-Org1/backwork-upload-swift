@@ -5,7 +5,7 @@ import object_storage
 LOG = logging.getLogger(__name__)
 
 
-class ObjectStorageUpload(object):
+class ObjectStorageUpload(object):  # pylint: disable=unused-variable
     """Upload a file to Softlayer ObjectStorage."""
     command = "softlayer"
 
