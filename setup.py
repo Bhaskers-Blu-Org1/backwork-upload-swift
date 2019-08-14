@@ -11,14 +11,15 @@ with open(path.join(HERE, 'README.md')) as f:
     LONG_DESCRIPTION = f.read()
 
 setup(
-    name="monsoon-upload-softlayer",
+    name="backwork-upload-softlayer",
     version="0.2.0",
-    description="Monsoon plug-in for Softlayer uploads.",
+    description="Backwork plug-in for Softlayer uploads.",
     long_description=LONG_DESCRIPTION,
-    url="https://github.ibm.com/apset/monsoon",
+    long_description_content_type="text/markdown",
+    url="https://github.com/IBM/backwork-upload-softlayer",
     author="Luiz Aoqui",
     author_email="laoqui@ca.ibm.com",
-    license="IBM",
+    license="Apache 2",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Environment :: Console",
@@ -27,13 +28,14 @@ setup(
         "Operating System :: POSIX :: Linux",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 2 :: Only",
+        'License :: OSI Approved :: Apache Software License',
         "Topic :: Database",
         "Topic :: System :: Archiving :: Backup",
         "Topic :: Utilities"
     ],
     packages=find_packages(),
     install_requires=[
-        "monsoon-cli>=0.1.7",
+        "backwork",
         "softlayer-object-storage==0.5.4"
     ],
     entry_points={
