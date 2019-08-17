@@ -6,9 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.0][] - 2019-08-17
+
+### Changed
+- Changed package name to `backwork-upload-softlayer`
+
 ## [0.2.0][] - 2018-04-05
 ### Added
--   Added ability to upload via private Softlayer network. Made it the 
+-   Added ability to upload via private Softlayer network. Made it the
     default.
 
 ## [0.1.5][] - 2017-06-11
