@@ -39,7 +39,7 @@ setup(
         "softlayer-object-storage==0.5.4"
     ],
     entry_points={
-        "monsoon.uploads": [
+        "backwork.uploads": [
             "softlayer=softlayer:ObjectStorageUpload"
         ]
     }

@@ -23,6 +23,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 -   Dependency name
 
-[Unreleased]: https://github.ibm.com/apset/monsoon-upload-softlayer/compare/0.2.0...HEAD
-[0.2.0]: https://github.ibm.com/apset/monsoon-upload-softlayer/compare/0.1.5...0.2.0
-[0.1.5]: https://github.ibm.com/apset/monsoon-upload-softlayer/compare/0.1.1...0.1.5
+[Unreleased]: https://github.ibm.com/apset/backwork-upload-softlayer/compare/0.2.0...HEAD
+[0.2.0]: https://github.ibm.com/apset/backwork-upload-softlayer/compare/0.1.5...0.2.0
+[0.1.5]: https://github.ibm.com/apset/backwork-upload-softlayer/compare/0.1.1...0.1.5

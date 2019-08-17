@@ -1,19 +1,19 @@
-# monsoon-upload-softlayer
-Add support for SoftLayer uploads on [`monsoon`](https://github.ibm.com/apset/monsoon).
+# backwork-upload-softlayer
+Add support for SoftLayer uploads on [`backwork`](https://github.com/IBM/backwork).
 
 ## Installing
-You can use `pip` to install this plug-in directly from GHE:
+You can use `pip` to install this plug-in:
 ```sh
-$ pip install git+ssh://git@github.ibm.com/apset/monsoon-upload-softlayer
+$ pip install backwork-upload-softlayer
 ```
 
 ## Using
-After installing the plug-in you will be able to use the `upload softlayer` 
-command on `monsoon`.
+After installing the plug-in you will be able to use the `upload softlayer`
+command on `backwork`.
 
 ```sh
-$ monsoon upload softlayer --help
-usage: monsoon upload softlayer [-h] [-u USERNAME] [-p API_KEY]
+$ backwork upload softlayer --help
+usage: backwork upload softlayer [-h] [-u USERNAME] [-p API_KEY]
                                 [-d DATACENTER] [-c CONTAINER]
                                 [local_path] remote_path
 
