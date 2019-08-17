@@ -1,0 +1,16 @@
+language: python
+python: '3.6'
+cache:
+  pip: true
+install:
+- pip install .
+script:
+- echo "no tests implemented"
+deploy:
+  - provider: pypi
+    user: __token__
+    password:
+      secure: EJeBS3wzveadsqg/bjEiPoc6y5NcZITChqcBOZH17id3MFE7j+XqL9rhTDnOVb31Tj1wn+aFnbOPnZbDR1aaWPHvZaVU4kKhPFP2Dsm8Ps2JybnTqLBwiNjgvYOJoHUKcLeVRMJ9gO1wFUoaN/rbBi2H+1EdJD8V52OF8JCuAiWOGtMFncQzRJWPHyRrZ36OfFxZI8jeP7pgc9lcIzgeC2SDuqRh40MynqKHnp9ej9uUMuv7ngUC5OnrUh6nKIwelhwaaywJSL3e9PsZntYj2L0ohMGbzU9XwsKoFh1dDANam2MoTqKAx3Rl7kENmEB/aH9Gu23klPeLR7E/lbDDMOfWqniS9OTKtpWNn0ywlsbzjC+iotVTzI32hB4pYospi/EZfWheD2D6i6xioHwtNmIO2Cvpl5F1AiMS4jNBE7HgvvKpuem7Iw/mal8fl9maR0zGvMfzhqCCmHPeKVceqGwNLAC7a2f0cQb8fM4hpbXXLy/sBI3KiGECTD1sy1TxaQ1Ly69LKYz0yjGhmP2Xc8kZQB15rb7XNeOABF3CQzgF7oxPunGMxVziW90EmB7XiQ2L2z9VsnJe44E8SWm1xMQjsUz36e2zpZ/f2aCPSOnYD0t2tcXCYuXAQ/lzjsls4gcwbJp23xcwEWynaeKTk+R4xiZr9x7UzwBLWkiBRfg=
+    on:
+      tags: true
+      repo: IBM/backwork-upload-softlayer
