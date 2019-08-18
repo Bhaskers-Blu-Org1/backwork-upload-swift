@@ -1,4 +1,4 @@
-# backwork-upload-softlayer
+# backwork-upload-softlayer [![Build Status](https://travis-ci.org/IBM/backwork-upload-softlayer.svg?branch=master)](https://travis-ci.org/IBM/backwork-upload-softlayer) [![PyPI version](https://badge.fury.io/py/backwork-upload-softlayer.svg)](https://badge.fury.io/py/backwork-upload-softlayer)
 Add support for SoftLayer uploads on [`backwork`](https://github.com/IBM/backwork).
 
 ## Installing
